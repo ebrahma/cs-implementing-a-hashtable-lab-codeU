@@ -77,6 +77,7 @@ public class MyBetterMap<K, V> implements Map<K, V> {
         // TODO: fill this in.
 		for (MyLinearMap<K, V> map: maps) {
 			if (map.containsValue(target)) {
+				//because value found
 				return true;
 			}
 		}
